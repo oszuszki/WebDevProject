@@ -1,6 +1,6 @@
 <?php
 
-$myfile = fopen("../password/password.txt", "r") or die("Unable to open file!");
+$myfile = fopen("../password/password.txt", "r") or die("A file nem található");
 
 
 $key = [5,-14,31,-9,3];
